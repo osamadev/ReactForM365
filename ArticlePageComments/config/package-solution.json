@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "article-page-comments-client-side-solution",
+    "id": "709cf32e-3a13-4957-ad03-495bf367062a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ArticlePageComments description"
+      },
+      "longDescription": {
+        "default": "ArticlePageComments description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "article-page-comments Feature",
+        "description": "The feature that activates elements of the article-page-comments solution.",
+        "id": "b1f9ab37-b0b6-42c6-87ee-0cb56298a8a9",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/article-page-comments.sppkg"
+  }
+}

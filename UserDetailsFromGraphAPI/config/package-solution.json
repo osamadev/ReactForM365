@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "user-details-from-graph-api-client-side-solution",
+    "id": "ba7e9563-9699-49a6-a233-69d08c580d2a",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "webApiPermissionRequests":[
+       {"resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {"resource": "Microsoft Graph",
+      "scope": "Team.ReadBasic.All"}
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "user-details-from-graph-api description"
+      },
+      "longDescription": {
+        "default": "user-details-from-graph-api description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "user-details-from-graph-api Feature",
+        "description": "The feature that activates elements of the user-details-from-graph-api solution.",
+        "id": "b2fba8fa-0596-4801-a1f1-25e1a8563789",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/user-details-from-graph-api.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "article-page-comments-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/articlePageCommentsWp/ArticlePageCommentsWpWebPart.js",
+          "manifest": "./src/webparts/articlePageCommentsWp/ArticlePageCommentsWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ArticlePageCommentsWpWebPartStrings": "lib/webparts/articlePageCommentsWp/loc/{locale}.js"
+  }
+}

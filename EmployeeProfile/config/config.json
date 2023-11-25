@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "employee-profile-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/employeeProfileWp/EmployeeProfileWpWebPart.js",
+          "manifest": "./src/webparts/employeeProfileWp/EmployeeProfileWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EmployeeProfileWpWebPartStrings": "lib/webparts/employeeProfileWp/loc/{locale}.js"
+  }
+}

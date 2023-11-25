@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "employee-profile",
+    "libraryId": "605b2419-6ebd-41a2-8c5d-e015e18c73e1",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "employee-profile",
+    "solutionShortDescription": "employee-profile description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
